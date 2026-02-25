@@ -2,7 +2,6 @@ Edad = input("Ingrese su edad: ")
 Puede_conducir = None
 try:
     Edad = int(Edad)
-    print("El dato ingresado SI es un numero")
 
     if (Edad >= 26):
         print("Puedes conducir")
