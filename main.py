@@ -1,6 +1,9 @@
+print("SIGUE SIN SERVIR")
+
 Hacer = int(input("¿Que desea hacer? 1. Registro de personas o 2. Compra de productos: "))
-VAL = True
-while Hacer == (1 or 2):
+Repetir = True
+while Repetir:
+    while Hacer == (1 or 2):
         if Hacer == 1:
                     NumeroPersonas = int(input("¿Cuántas personas desea registrar?: "))
                     ConocimientosBasicos = False
@@ -33,11 +36,12 @@ while Hacer == (1 or 2):
                         else:
                             print("Descuento aplicado: 0%")
                             print("El total a pagar es: ", Subtotal)  
-else:
-      print("Ingrese solo el numero de las opciones correspondientes: ")
+if Hacer != (1 or 2):
+    print("Ingrese solo el numero de las opciones correspondientes: ")
+    Repetir = False
 
 
-print("TIENE UN ERROR; ARREGLAR ")
+
 
 
 
