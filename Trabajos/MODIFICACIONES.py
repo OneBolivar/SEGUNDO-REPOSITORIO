@@ -1,1 +1,1 @@
-print("Este archivo servira de prueba, para hacer modificaciones en la carpeta Trabajos")
+print("Este archivo servira de prueba para hacer modificaciones en la carpeta Trabajos")
