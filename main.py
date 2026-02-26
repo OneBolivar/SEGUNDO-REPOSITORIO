@@ -1,4 +1,4 @@
-print("SIGUE SIN SERVIR :(")
+print("SIGUE SIN SERVIR")
 
 Hacer = int(input("¿Que desea hacer? 1. Registro de personas o 2. Compra de productos: "))
 Repetir = True
