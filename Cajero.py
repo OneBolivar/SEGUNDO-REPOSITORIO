@@ -29,7 +29,10 @@ for i in range (Numero_Operaciones):
                              if Deposito >= 0:
                                 print("Su saldo total es de: ", (Deposito + SaldoInicial))
                                 Validador = False
+    else:
+         print("Opcion invalida")
 
+print("Gracias por usar el cajero automatico ")
                         
                                 
                        
