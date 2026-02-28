@@ -6,8 +6,8 @@ for i in range (Numero_Operaciones):
     if Ejecucion == 1:
         print("Su saldo actual es de: ", SaldoInicial)
     elif Ejecucion == 2:
+        Retiro = float(input("Ingrese monto a retirar: "))
         while Validador:
-            Retiro = float(input("Ingrese monto a retirar: "))
             if Retiro < 0:
                 print("Ingrese una cantidad valida")
                 Retiro = float(input("Ingrese monto a retirar: "))
@@ -17,9 +17,9 @@ for i in range (Numero_Operaciones):
                         print("Fondos insuficientes")
                     elif Retiro <= SaldoInicial:
                         print("Retiro efectuado, su nuevo saldo es de: ", (SaldoInicial - Retiro))                   
-    elif Ejecucion == 3:
+    elif Ejecucion == 3: 
                        while Validador:
-                        Deposito = float(input("Ingrese monto a depositar: "))    
+                        Deposito = float(input("Ingrese monto a depositar: "))
                         if Deposito < 0:
                              print("Ingrese una cantidad valida")
                              Deposito = float(input("Ingrese monto a depositar: "))  
@@ -28,8 +28,7 @@ for i in range (Numero_Operaciones):
                                 Validador = False
     else:
          print("Opcion invalida")
-
-print("Gracias por usar el cajero automatico ")
+print("Gracias por usar el cajero automatico :) ")
                         
                                 
                        
