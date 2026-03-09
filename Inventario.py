@@ -15,10 +15,11 @@ while VALIDADOR:
         print("Producto:",NombreProducto,"|Precio Unitario:",PrecioProducto,"|Cantidad:",CantidadProducto,"|Total a pagar:",Total )
 #Imprimimos en pantalla el nombre del producto, precio unitario, la cantidad a comprar y el total a pagar
         VALIDADOR = False
-        
+#Colocamos el validador y lo convertimos en falso para que se acabe el ciclo una vez cumplido el proceso       
     except ValueError:
-        
+#Agregamos el except con el ValueError para que cuando ingresen un dato incorrecto el nos muestre el error
         print("¡ERROR! Debe ingresar un número")
+#Mostramos en consola el mensaje con el error y lo que debe hacer
 
 
    
