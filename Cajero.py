@@ -7,6 +7,7 @@ for i in range (Numero_Operaciones):
         print("Su saldo actual es de: ", SaldoInicial)
     elif Ejecucion == 2:
         Retiro = float(input("Ingrese monto a retirar: "))
+        Retiro = float(input("Ingrese monto a retirar: "))
         while Validador:
             if Retiro < 0:
                 print("Ingrese una cantidad valida")
@@ -19,6 +20,7 @@ for i in range (Numero_Operaciones):
                     print("Retiro efectuado, su nuevo saldo es de: ", (SaldoInicial - Retiro))                   
     elif Ejecucion == 3: 
                        while Validador:
+                        Deposito = float(input("Ingrese monto a depositar: "))
                         Deposito = float(input("Ingrese monto a depositar: "))
                         if Deposito < 0:
                              print("Ingrese una cantidad valida")
