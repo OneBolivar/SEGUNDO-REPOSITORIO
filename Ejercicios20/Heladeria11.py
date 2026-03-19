@@ -26,16 +26,14 @@ while Validador:
        Historial["cono"] += PedirCantidad 
        TotalPagar = PedirCantidad * 3000
        Historial["total_pagar"] += TotalPagar
-    if PedirProducto == 2 :
+    elif PedirProducto == 2 :
        Historial["vaso"] += PedirCantidad 
        TotalPagar = PedirCantidad * 4000
        Historial["total_pagar"] += TotalPagar
-    if PedirProducto == 3 :
+    elif PedirProducto == 3 :
        Historial["banana_split"] += PedirCantidad 
        TotalPagar = PedirCantidad * 9000    
        Historial["total_pagar"] += TotalPagar
-        
-        
     Seguir = input("¿Desea pedir otra cosa?: ").lower() .strip() 
     if Seguir == "no":
         print(Historial)
