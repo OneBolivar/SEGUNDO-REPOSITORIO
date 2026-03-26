@@ -25,3 +25,5 @@ while Running:
         
     operacion = Result/id  
     print(f"El promedio de calificaciones es: {operacion}")
+    
+    
